@@ -21,6 +21,16 @@ int x = 0, y = 0; // Posição inicial comum
         printf("Cima/Esquerda: %d casa\n", x,y);
    
     }
+// Reiniciando posição
+    x = 0;
+
+     // ===== Movimento do Bispo (diagonal superior esquerda x++, y++) usando for =====
+    printf("Movimento do Bispo: Baixa/Direita\n");
+    for (int i = 0; i < 5; i++) {
+        x++;
+        y++;
+    printf("Baixa/Direita: %d casa\n", x,y);
+    }
 
 
 

@@ -52,7 +52,29 @@ int x = 0, y = 0; // Posição inicial comum
         printf("direita: %d casa\n", x, y);  // y permanece o mesmo
         i++;
     }
+// ===== Movimento da Rainha (esquerda x++) usando do-while =====
+    printf("\nMovimento da Rainha:\n");
+    i = 0;
+    do {
+        x++;
+        printf("Esquerda: %d casa\n", x, y);  // y permanece o mesmo
+        i++;
+    } while (i < 8);
+    
+     // Reiniciando posição
+    x = 0;
+// ===== Movimento da Rainha (direita - x--) usando do-while =====
+    printf("\nMovimento da Rainha(do-while):\n");
+    i = 0;
+    do {
+        x--;
+        printf("direita: %d casa\n", x, y);  // y permanece o mesmo
+        i++;
+    } while (i < 8);
 
+
+// Reiniciando posição
+    x = 0;
 
  return 0;
  }

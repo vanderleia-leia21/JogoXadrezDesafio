@@ -67,7 +67,7 @@ int x = 0, y = 0; // Posição inicial comum
      // Reiniciando posição
     x = 0;
 // ===== Movimento da Rainha (direita - x--) usando do-while =====
-    printf("\nMovimento da Rainha(do-while):\n");
+    printf("\nMovimento da Rainha:\n");
     i = 0;
     do {
         x--;

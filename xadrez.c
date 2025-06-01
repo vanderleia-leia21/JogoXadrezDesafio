@@ -41,7 +41,17 @@ int x = 0, y = 0; // Posição inicial comum
         y++;
     printf("Baixa/esquerda: %d casa\n", x, y);
     }
+// Reiniciando posição
+    x = 0;
 
+    // ===== Movimento da Torre (direita x++) usando while =====
+    printf("\nMovimento da Torre:\n");
+    int i = 0;
+    while (i < 5) {
+        x++;
+        printf("direita: %d casa\n", x, y);  // y permanece o mesmo
+        i++;
+    }
 
 
  return 0;

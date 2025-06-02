@@ -62,7 +62,7 @@ int x = 0, y = 0; // Posição inicial comum
         x++;
         printf("Esquerda: %d casa\n", x, y);  // y permanece o mesmo
         i++;
-    } while (i < 8);
+    } while (i < 8); 
 
  return 0;
  }
